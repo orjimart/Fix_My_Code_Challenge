@@ -1,6 +1,7 @@
 #!/usr/bin/node
 /*
     Print a square with the character #
+    
     The size of the square must be the first argument 
     of the program.
 */
@@ -20,4 +21,4 @@ for (let i = 0 ; i < size ; i ++) {
         process.stdout.write("#");
     }
     process.stdout.write("\n");
-}}
+}
